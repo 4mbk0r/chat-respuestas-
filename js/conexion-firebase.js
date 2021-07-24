@@ -151,7 +151,7 @@ class Conexion {
 
 }
 
-if (document.body)
+/*if (document.body)
 {
 var ancho = (document.body.clientWidth);
 var alto = (document.body.clientHeight);
@@ -162,6 +162,7 @@ var ancho = (window.innerWidth);
 var alto = (window.innerHeight);
 }
 alert("El tamaño de la ventana actual: " + ancho + " de ancho "+alto+" de alto"); 
+^*/
 fb = new Conexion();
 fb.conversacion();
 fb.respuesta(0);
