@@ -91,7 +91,7 @@ class Conexion {
                     $("#ele_opciones").append(userHtml);
                     valor += 1;
                 });
-                var objDiv = document.getElementById("chatbox");
+                var objDiv = document.getElementById("chat-contenido");
                 objDiv.scrollTop = objDiv.scrollHeight;
 
             } else {
@@ -123,7 +123,7 @@ class Conexion {
                     block: "start",
                     behavior: "smooth",
                 });
-                var objDiv = document.getElementById("chatbox");
+                var objDiv = document.getElementById("chat-contenido");
                 objDiv.scrollTop = objDiv.scrollHeight;
                 
                 return "hecho";

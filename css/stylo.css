@@ -303,32 +303,71 @@ textarea {
 .text-info {
     color: #48b0f7 !important
 }
-/*.cambiar{
-    background-color: red;
-    height: 74vh; 
-   }*/
+.contenido-chat {
+    height: 40%;
+    overflow: scroll;
+}
+.footer {
+    position: fixed;
+    height: 60%;
+}
+@media only screen and (min-height:200px) and (max-height:250px) {
+    .contenido-chat {
+        height: 55%;
+    }
+    .footer {
+        height: 45%;
+    }
+}
+@media only screen and (min-height:250px) and (max-height:320px) {
+    .contenido-chat {
+        height: 65%;
+    }
+    .footer {
+        height: 35%;
+    }
+}
+@media only screen and (min-height:320px) and (max-height:420px) {
+    .contenido-chat {
+        height: 70%;
+    }
+    .footer {
+        height: 30%;
+    }
+}
+@media only screen and (min-height:420px) and (max-height:520px) {
+    .contenido-chat {
+        height: 75%;
+    }
+    .footer {
+        height: 25%;
+    }
+}
+@media only screen and (min-height:520px) and (max-height:620px) {
+    .contenido-chat {
+        height: 80%;
+    }
+    .footer {
+        height: 20%;
+    }
+}
+@media only screen and (min-height:620px) and (max-height:920px) {
+    .contenido-chat {
+        height: 85%;
+    }
+    .footer {
+        height: 15%;
+    }
+}
+@media (min-height:920px){
+    .contenido-chat {
+        height: 90%;
+    }
+    .footer {
+        height: 10%;
+    }
+}
 /*
-   @media only screen and (min-height:200px) and (max-height:240px) {
-    .cambiar{
-     background-color: darkgray;
-     height:50vh;
-     
-    }
-}
-@media only screen and (min-height:200px) and (max-height:240px) {
-    .cambiar{
-     background-color: darkgray;
-     height:55vh;
-     
-    }
-}
-@media only screen and (min-height:240px) and (max-height:280px) {
-    .cambiar{
-     background-color: darkseagreen;
-     height:60vh;
-     
-    }
-}
 @media only screen and (min-height:280px) and (max-height:320px) {
     .cambiar{
      background-color: dodgerblue;
@@ -438,20 +477,3 @@ textarea {
   
   }
 
-
-.contenido-chat {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 70%;
-    overflow: scroll;
-}
-#footer {
-    background: white;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 30%;
-}

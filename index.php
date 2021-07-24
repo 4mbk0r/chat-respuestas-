@@ -42,8 +42,8 @@
         }
     </script>
 
-    <div class="container contenido-chat" >
-        <div id="chatbox" class=" cambiar" id="chat-content"
+    <div id = "chat-contenido" class="container contenido-chat fondo-correcto  d-flex justify-content-around" >
+        <div id="chatbox" class=" cambiar container justify-content-around" id="chat-content"
             >
         </div>
     </div>
