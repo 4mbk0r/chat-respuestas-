@@ -82,7 +82,7 @@ class Conexion {
                 $("#ele_opciones").empty();
                 opciones.forEach(element => {
                     var mensajeinicio = '<input type="radio" class="btn-check btn-xs" name="options" value="'+ valor +'" id="'+idpregunta+'-'+valor+'" autocomplete="off">'
-                    mensajeinicio+='<label class="btn btn-danger boder pulse" for="'+idpregunta+"-"+valor+'">'
+                    mensajeinicio+='<label class="btn btn-outline-primary boder pulse" for="'+idpregunta+"-"+valor+'">'
                      
                     //<input type="radio" class="btn-check" name="options" value="' + valor + '" id="' + idpregunta + '" autocomplete="off" checked>';
                     var mensajefinal = '</label>';
@@ -91,7 +91,8 @@ class Conexion {
                     $("#ele_opciones").append(userHtml);
                     valor += 1;
                 });
-                
+                var objDiv = document.getElementById("chatbox");
+                objDiv.scrollTop = objDiv.scrollHeight;
 
             } else {
                 // doc.data() will be undefined in this case

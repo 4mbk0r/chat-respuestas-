@@ -307,65 +307,94 @@ textarea {
     background-color: red;
     height: 74vh; 
    }
-@media only screen and (min-height:380px) and (max-height:480px) {
+
+@media only screen and (min-height:200px) and (max-height:240px) {
     .cambiar{
-     background-color: blue;
-     height:78vh;
+     background-color: darkgray;
+     height:55vh;
      
     }
 }
-@media only screen and (min-height:480px) and (max-height:640px){
+@media only screen and (min-height:240px) and (max-height:280px) {
+    .cambiar{
+     background-color: darkseagreen;
+     height:60vh;
+     
+    }
+}
+@media only screen and (min-height:280px) and (max-height:320px) {
+    .cambiar{
+     background-color: dodgerblue;
+     height:66vh;
+     
+    }
+}
+@media only screen and (min-height:320px) and (max-height:380px) {
+    .cambiar{
+     background-color: blue;
+     height:72vh;
+     
+    }
+}
+@media only screen and (min-height:380px) and (max-height:430px){
     .cambiar{
         background-color: green;
-        height: 80vh;
+        height: 76vh;
     }
 }
-@media only screen and (min-height:640px) and (max-height:740px){
+@media only screen and (min-height:430px) and (max-height:520px){
     .cambiar{
         background-color: yellow;
-        height: 84vh;
+        height: 78vh;
     }
 }
-@media only screen and (min-height:640px) and (max-height:740px){
+@media only screen and (min-height:520px) and (max-height:600px){
     .cambiar{
-        background-color: turquoise;
-        height: 86vh;
+        background-color: rgb(110, 128, 126);
+        height: 82vh;
     }
 }
 
-@media only screen and (min-height:740px) and (max-height:840px){
+@media only screen and (min-height:600px) and (max-height:700px){
     .cambiar{
         background-color: violet;
-        height: 88vh;
+        height: 84vh;
     }
 }
-@media only screen and (min-height:840px) and (max-height:940px){
+@media only screen and (min-height:700px) and (max-height:800px){
     .cambiar{
         background-color: red;
-        height: 88vh;
+        height: 86vh;
     }
 }
-@media only screen and (min-height:940px) and (max-height:1024px){
+@media only screen and (min-height:800px) and (max-height:900px){
     .cambiar{
         background-color: grey;
         height: 88vh;
     }
 }
-@media only screen and (min-height:1024px) and (max-height:1240px){
+@media only screen and (min-height:900px) and (max-height:1000px){
     .cambiar{
         background-color: royalblue;
         height: 90vh;
     }
 }
-@media (min-height:1280px){
+@media (min-height:1000px){
     .cambiar{
      background-color:indigo;
      height: 92vh;
     }
 }
 
+.cambiar{
+    background-color:sandybrown;
+   
+   }
+.fondo-correcto{
+    background-color:sandybrown;
+   
+}
 .pulse {
-    background-color: red;
     justify-content: center;
     animation: animate 5s linear infinite
 }
@@ -383,11 +412,11 @@ textarea {
 
 @keyframes animate {
     0% {
-        box-shadow: 0 0 0 0 rgb(255, 109, 74, 0.7), 0 0 0 0 rgb(255, 109, 74, 0.7)
+        box-shadow: 0 0 0 0 rgba(74, 237, 255, 0.7), 0 0 0 0 rgba(74, 183, 255, 0.7)
     }
 
     10% {
-        box-shadow: 0 0 0 50px rgb(255, 109, 74, 0), 0 0 0 0 rgb(255, 109, 74, 0.7)
+        box-shadow: 0 0 0 50px rgb(255, 109, 74, 0), 0 0 0 0 rgba(74, 161, 255, 0.7)
     }
 
     40% {

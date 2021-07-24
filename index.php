@@ -57,15 +57,15 @@
                     </label>
                 </div>
             </div>
-            <div class="row d-flex justify-content-around">
-                <div class="col-sm-1 col-2 bg-success  d-flex justify-content-around">
+            <div class="row d-flex fondo-correcto justify-content-around">
+                <div class="col-sm-1 col-2 fondo-correcto  d-flex justify-content-around">
                     <img class="avatar avatar-xs" src="https://img.icons8.com/color/36/000000/administrator-male.png"
                         alt="...">
                 </div>
-                <div class="col-sm-7 col-6 bg-white  d-flex justify-content-around">
+                <div class="col-sm-7 col-6 fondo-correcto d-flex justify-content-around">
                     <input class="form-control" type="text" id="escribir_text" placeholder="Escribir aquí">
                 </div>
-                <div class="col-sm-4  col-4 bg-warning d-flex justify-content-around">
+                <div class="col-sm-4  fondo-correcto col-4  d-flex justify-content-around">
                     <div class="center d-grid gap-2 mx-auto">
                         <button type="submit" id="send" class="btn btn-primary btn-lg">Enviar</button>
                     </div>
