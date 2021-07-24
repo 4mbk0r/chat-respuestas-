@@ -52,7 +52,7 @@
         <div id="userInput" class="container bg-transparent fixed-bottom  justify-content-center">
             <div class="row">
                 <div class="col d-flex justify-content-around">
-                    <label id="ele_opciones" class="btn active container btn-group scrolling-wrapper">
+                    <label id="ele_opciones" class="btn active container form-check-inline scrolling-wrapper">
 
                     </label>
                 </div>
