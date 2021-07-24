@@ -367,7 +367,7 @@ textarea {
 .pulse {
     background-color: red;
     justify-content: center;
-    animation: animate 3s linear infinite
+    animation: animate 5s linear infinite
 }
 
 .pulse i {
@@ -386,15 +386,22 @@ textarea {
         box-shadow: 0 0 0 0 rgb(255, 109, 74, 0.7), 0 0 0 0 rgb(255, 109, 74, 0.7)
     }
 
-    40% {
+    10% {
         box-shadow: 0 0 0 50px rgb(255, 109, 74, 0), 0 0 0 0 rgb(255, 109, 74, 0.7)
     }
 
-    80% {
+    40% {
         box-shadow: 0 0 0 50px rgb(255, 109, 74, 0), 0 0 0 30px rgb(255, 109, 74, 0)
     }
 
-    100% {
+    60% {
         box-shadow: 0 0 0 0 rgb(255, 109, 74, 0), 0 0 0 30px rgb(255, 109, 74, 0)
     }
 }
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
+  }
