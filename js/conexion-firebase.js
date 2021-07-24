@@ -82,7 +82,7 @@ class Conexion {
                 $("#ele_opciones").empty();
                 opciones.forEach(element => {
                     var mensajeinicio = '<input type="radio" class="btn-check btn-xs" name="options" value="'+ valor +'" id="'+idpregunta+'-'+valor+'" autocomplete="off">'
-                    mensajeinicio+='<label class="btn btn-outline-primary boder pulse" for="'+idpregunta+"-"+valor+'">'
+                    mensajeinicio+='<label class="btn btn-primary boder pulse" for="'+idpregunta+"-"+valor+'">'
                      
                     //<input type="radio" class="btn-check" name="options" value="' + valor + '" id="' + idpregunta + '" autocomplete="off" checked>';
                     var mensajefinal = '</label>';
