@@ -43,7 +43,7 @@
     </script>
 
     <div class="container">
-        <div id="chatbox" class=" cambiar" class="ps-container ps-theme-default ps-active-y" id="chat-content"
+        <div id="chatbox" class=" cambiar ps-container ps-theme-default ps-active-y" id="chat-content"
             style="overflow-y: scroll !important;">
         </div>
     </div>
