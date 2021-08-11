@@ -24,6 +24,7 @@ class Conexion {
             tipo: "seleccion"
         }
             , { merge: true });
+        /*
 
 
         var pregunta = db.collection('BFQ').doc('1');
@@ -53,7 +54,7 @@ class Conexion {
             },
             tipo: "seleccion"
         }
-            , { merge: true });
+            , { merge: true });*/
     }
     respuesta(numero) {
         var idpregunta= parseInt(numero);
@@ -81,7 +82,7 @@ class Conexion {
                 var valor=0;
                 $("#ele_opciones").empty();
                 opciones.forEach(element => {
-                    var mensajeinicio = '<input type="radio" class="btn-check btn-xs" name="options" value="'+ valor +'" id="'+idpregunta+'-'+valor+'" autocomplete="off">'
+                    var mensajeinicio = '<input type="radio" class="btn-check btn-xs"  onclick="mostar(value)" name="options" value="'+ opciones[valor] +'" id="'+idpregunta+'-'+valor+'" autocomplete="off">'
                     mensajeinicio+='<label class="btn btn-primary boder pulse" for="'+idpregunta+"-"+valor+'">'
                      
                     //<input type="radio" class="btn-check" name="options" value="' + valor + '" id="' + idpregunta + '" autocomplete="off" checked>';
@@ -91,6 +92,7 @@ class Conexion {
                     $("#ele_opciones").append(userHtml);
                     valor += 1;
                 });
+                $("#escribir_text").val("");
                 var objDiv = document.getElementById("chat-contenido");
                 objDiv.scrollTop = objDiv.scrollHeight;
 
@@ -115,7 +117,7 @@ class Conexion {
                 opciones = query_w.opciones;
                 pregunta = query_w.pregunta;
                 opciones = Object.values(opciones);
-                data = opciones[respuesta];
+                data = respuesta;
                 console.log(data);
                 userHtml = this.escribir_mensaje_usuario(data);
                 $("#chatbox").append($.parseHTML(userHtml));

@@ -107,15 +107,18 @@
                         break;
                     }
                 }
-                if (selectedValue >= 0) {
-                    var data = fb.escribir(selecid, selectedValue);
-                    fb.respuesta(parseInt(selecid)+1);
-                }
+                var data = fb.escribir(selecid, selectedValue);
+                fb.respuesta(parseInt(selecid)+1);
             }
             event.preventDefault();
 
         });
+        
     });
+    function mostar(numero) {
+        $("#escribir_text").val("");
+        $("#escribir_text").val(numero);
+    }
 </script>
 
 </html>
